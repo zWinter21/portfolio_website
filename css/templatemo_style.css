@@ -114,6 +114,7 @@ body {
 .flexslider .slides img {
     width: 100%;
     min-height: 270px;
+    object-fit: cover;
     display: block;
 }
 .flexslider .slides > li {
@@ -302,7 +303,7 @@ body {
 #portfolio a {
   color: black;
 }
-#portfolio .card-info :hover {
+#portfolio .card :hover {
   color: #78c1f3;
 }
 #portfolio p {
