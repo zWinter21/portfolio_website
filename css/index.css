@@ -7,12 +7,14 @@ body {
     background: #d8d9da;
 }
 
-a:hover,
-a:active {
-    color: #78c1f3;
+a {
     text-decoration: none;
 }
 
+a:hover,
+a:active {
+    color: #78c1f3;
+}
 
 /* start templatemo page container */
 @media (min-width: 768px) {
@@ -33,7 +35,6 @@ a:active {
     }
 }
 /* end templatemo page container */
-
 
 /* start templatemo navigation */
 .navbar {
@@ -96,7 +97,6 @@ a:active {
 }
 /* end slideshow */
 
-
 /* start about me*/
 #about {
     color: #333;
@@ -136,7 +136,6 @@ a:active {
 }
 /* end about me*/
 
-
 /* start skills*/
 .skills h2 {
     padding-bottom: 20px;
@@ -169,7 +168,6 @@ a:active {
     transform: rotate(360deg);
 }
 /* end skills*/
-
 
 /* start portfolio */
 #portfolio {
@@ -231,17 +229,16 @@ a:active {
 }
 #contact h2,
 #contact h3 {
-  color: white;
+    color: white;
     padding: 0 0 20px 0;
 }
 
 #contact a {
-  color: #78c1f3;
-  text-decoration: none;
+    color: #78c1f3;
 }
 
 #contact .contact-box {
-  background-color: #d8d9da !important;
+    background-color: #d8d9da !important;
 }
 
 #contact .form-control {
@@ -300,7 +297,6 @@ footer .social_icon a {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    text-decoration: none;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
     margin: 0 4px 24px 6px;
